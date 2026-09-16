@@ -1,0 +1,82 @@
+.hero {
+    min-height: 90vh;
+    border-radius: 24px;
+    margin: 1.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #e8ecf5 0%, #4a5fd9 55%, #0a0e1a 100%);
+}
+
+.menu-button {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #1a2470;
+    z-index: 2;
+}
+
+.hero-greeting {
+    font-size: 100px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1a2470;
+    margin-bottom: 0.5rem;
+}
+
+.hero-title {
+    font-family: "Forum", serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    font-style: normal;
+    color: #fcfcfc;
+    line-height: 1.15;
+    max-width: 600px;
+}
+
+.hero-description {
+    font-family: "Forum", serif;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal;
+    color: #1a2470;
+    max-width: 500px;
+    margin-top: 1.5rem;
+    line-height: 1.5;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.skills-button {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1a2470;
+    padding: 0.7rem 1.4rem;
+    background: #1a2470;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link {
+    color: #1a2470;
+    display: flex;
+}

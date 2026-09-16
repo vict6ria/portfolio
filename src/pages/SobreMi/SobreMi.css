@@ -1,0 +1,23 @@
+.sobre-mi {
+    min-height: 70vh;
+    padding: 4rem 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.sobre-mi-title {
+    font-family: "Forum", serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: #1a2470;
+    margin-bottom: 1rem;
+}
+
+.sobre-mi-text {
+    font-family: "Forum", serif;
+    font-size: 1.15rem;
+    color: #1a2470;
+    max-width: 600px;
+    line-height: 1.6;
+}
