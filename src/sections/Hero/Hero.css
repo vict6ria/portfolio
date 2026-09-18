@@ -8,7 +8,7 @@
     justify-content: flex-end;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, #e8ecf5 0%, #4a5fd9 55%, #0a0e1a 100%);
+    background: linear-gradient(135deg, #e8ecf5 0%, #4a5fd9 55%, rgba(10, 14, 26, 0.85) 100%);
 }
 
 .menu-button {
@@ -24,26 +24,27 @@
 }
 
 .hero-greeting {
-    font-size: 100px;
-    font-weight: 500;
+    font-family: "Trirong", serif;
+    font-size: 3rem;
+    font-weight: 400;
     font-style: normal;
     color: #1a2470;
     margin-bottom: 0.5rem;
 }
 
 .hero-title {
-    font-family: "Forum", serif;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 400;
+    font-family: "Trirong", serif;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-weight: 300;
     font-style: normal;
-    color: #fcfcfc;
+    color: #1a2470;
     line-height: 1.15;
     max-width: 600px;
 }
 
 .hero-description {
-    font-family: "Forum", serif;
-    font-weight: 900;
+    font-family: "Trirong", serif;
+    font-weight: 500;
     font-size: 30px;
     font-style: normal;
     color: #1a2470;
@@ -60,7 +61,7 @@
 }
 
 .skills-button {
-    font-family: "Forum", serif;
+    font-family: "Trirong", serif;
     font-weight: 400;
     font-style: normal;
     color: #1a2470;

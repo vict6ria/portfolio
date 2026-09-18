@@ -2,7 +2,7 @@ import './SobreMi.css';
 
 function SobreMi() {
     return (
-        <section className="sobre-mi">
+        <section id="sobre-mi" className="sobre-mi">
             <h1 className="sobre-mi-title">Sobre mí</h1>
             <p className="sobre-mi-text">
                 Soy estudiante de segundo año de Relaciones Laborales y desarrolladora web en formación.

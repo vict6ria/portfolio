@@ -8,11 +8,6 @@ const CONTACT_CHANNELS = [
         href: 'mailto:victoriaaabenitez16@gmail.com',
     },
     {
-        icon: FaPhone,
-        label: '+54 9 11 0000 0000',
-        href: 'tel:+5491100000000',
-    },
-    {
         icon: FaGithub,
         label: 'github.com/vict6ria',
         href: 'https://github.com/vict6ria',
@@ -26,7 +21,7 @@ const CONTACT_CHANNELS = [
 
 function Contacto() {
     return (
-        <section className="contacto">
+        <section id="contacto" className="contacto">
             <h1 className="contacto-title">Contactar</h1>
 
             <ul className="contacto-list">
