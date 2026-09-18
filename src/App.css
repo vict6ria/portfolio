@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --c-mist: #ffffff;
+    --c-blue: #3d4fc4;
+    --c-navy: #10163f;
+    --c-violet: #6c3fb5;
+    --c-void: #05060d;
+    --font-display: "Trirong", serif;
+    --font-body: "Trirong", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg,
+            var(--c-mist) 0%,
+            var(--c-blue) 18%,
+            var(--c-navy) 34%,
+            var(--c-violet) 58%,
+            var(--c-void) 100%);
+    font-family: var(--font-body);
+}
