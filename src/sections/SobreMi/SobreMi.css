@@ -1,9 +1,10 @@
 .sobre-mi {
     min-height: 70vh;
     padding: 4rem 4.5rem;
-    display: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1.2rem;
     position: relative;
 }
@@ -19,18 +20,22 @@
 }
 
 .sobre-mi-title {
-    font-family: var(--font-display);
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-family: "Trirong", serif;
+    font-size: 5rem;
     color: #fcfcfc;
     margin-bottom: 1rem;
-    padding-left: 2.5rem;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
 }
 
 .sobre-mi-text {
-    font-family: var(--font-body);
+    font-family: "Trirong", serif;
+    text-align: center;
     font-size: 1.5rem;
-    color: var(--c-mist);
-    max-width: 600px;
+    color: #fcfcfc;
     line-height: 1.7;
     padding-left: 2.5rem;
+    width: 100%;
+    max-width: 1500px;
 }

@@ -5,10 +5,11 @@
     padding: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, #e8ecf5 0%, #4a5fd9 55%, rgba(10, 14, 26, 0.85) 100%);
+    background: linear-gradient(135deg, #26005a 0%, #16092e 45%, #05030a 85%, #000000 100%);
 }
 
 .menu-button {
@@ -19,43 +20,48 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #1a2470;
+    color: #fcfcfc;
     z-index: 2;
 }
 
 .hero-greeting {
     font-family: "Trirong", serif;
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 400;
     font-style: normal;
-    color: #1a2470;
+    color: #fcfcfc;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .hero-title {
     font-family: "Trirong", serif;
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 4.5rem;
     font-weight: 300;
     font-style: normal;
-    color: #1a2470;
+    text-align: center;
+    color: #e2d9f3;
     line-height: 1.15;
-    max-width: 600px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .hero-description {
     font-family: "Trirong", serif;
+    text-align: center;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-style: normal;
-    color: #1a2470;
-    max-width: 500px;
-    margin-top: 1.5rem;
+    color: #fcfcfc;
+    max-width: 600px;
+    margin: 1.5rem auto 0 auto;
     line-height: 1.5;
 }
 
 .hero-actions {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
 }
@@ -63,13 +69,16 @@
 .skills-button {
     font-family: "Trirong", serif;
     font-weight: 400;
-    font-style: normal;
-    color: #1a2470;
     padding: 0.7rem 1.4rem;
-    background: #1a2470;
-    color: white;
+    background: #6c5ce7;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.skills-button:hover {
+    background: #5b4bc4;
 }
 
 .social-links {
@@ -78,6 +87,6 @@
 }
 
 .social-link {
-    color: #1a2470;
+    color: #fcfcfc;
     display: flex;
 }

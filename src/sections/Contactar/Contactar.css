@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
 }
 
@@ -12,12 +13,15 @@
     font-size: clamp(2rem, 5vw, 3rem);
     color: #fcfcfc;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .contacto-list {
+    font-size: 1.3rem;
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.2rem;
     padding: 0;
     margin: 0;
@@ -26,8 +30,9 @@
 .contacto-link {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.9rem;
-    color: var(--c-mist);
+    color: #fcfcfc;
     font-family: var(--font-body);
     font-size: 1.05rem;
     text-decoration: none;
@@ -36,7 +41,6 @@
 
 .contacto-link:hover {
     color: #b98fe6;
-
 }
 
 .contacto-icon {

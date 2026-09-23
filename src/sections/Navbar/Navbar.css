@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(232, 236, 245, 0.75);
+    background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -15,7 +15,7 @@
     font-family: "Forum", serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color: #1a2470;
+    color: #fcfcfc;
     letter-spacing: 0.02em;
 }
 
@@ -32,7 +32,7 @@
     font-family: "Forum", serif;
     font-size: 1.05rem;
     font-weight: 400;
-    color: #1a2470;
+    color: #fcfcfc;
     background: none;
     border: none;
     cursor: pointer;
@@ -62,7 +62,7 @@
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: #1a2470;
+    color: #ebebec;
     cursor: pointer;
 }
 
