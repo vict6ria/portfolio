@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
         <nav className="nav">
-            <div className="nav-logo">Vic's Portfolio</div>
+            <div className="nav-logo">Victoria Benitez</div>
 
             <ul className={`nav-links ${menuAbierto ? 'abierto' : ''}`}>
                 <li><a className="nav-link" href="#hero" onClick={() => setMenuAbierto(false)}>Inicio</a></li>

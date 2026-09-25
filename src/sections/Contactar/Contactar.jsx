@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './Contactar.css';
 
 const CONTACT_CHANNELS = [
@@ -33,7 +33,7 @@ function Contacto() {
                             target={href.startsWith('http') ? '_blank' : undefined}
                             rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
                         >
-                            <Icon className="contacto-icon" />
+                            <Icon className="contacto-icon" aria-hidden="true" />
                             <span>{label}</span>
                         </a>
                     </li>

@@ -1,12 +1,14 @@
 .sobre-mi {
-    min-height: 70vh;
-    padding: 4rem 4.5rem;
+    min-height: calc(100vh - 105px);
+    padding: 2rem 1.5rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
     position: relative;
+    scroll-margin-top: 105px;
 }
 
 .sobre-mi::before {
@@ -20,22 +22,25 @@
 }
 
 .sobre-mi-title {
-    font-family: "Trirong", serif;
-    font-size: 5rem;
+    font-family: "Italiana", serif;
+    font-size: 3rem;
     color: #fcfcfc;
-    margin-bottom: 1rem;
     text-align: center;
     width: 100%;
     max-width: 700px;
+    margin: 0 0 1rem;
 }
 
 .sobre-mi-text {
-    font-family: "Trirong", serif;
+    font-family: "Italiana", serif;
     text-align: center;
     font-size: 1.5rem;
     color: #fcfcfc;
     line-height: 1.7;
-    padding-left: 2.5rem;
     width: 100%;
-    max-width: 1500px;
+    max-width: 2000px;
+    margin: 0;
+    -webkit-text-stroke: 0.1px #fcfcfc;
+    text-shadow: 0.1px 0 0 #fcfcfc;
+
 }

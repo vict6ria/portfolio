@@ -12,11 +12,13 @@
 }
 
 .nav-logo {
-    font-family: "Forum", serif;
+    font-family: "Italiana", serif;
     font-size: 1.5rem;
     font-weight: 400;
     color: #fcfcfc;
     letter-spacing: 0.02em;
+    -webkit-text-stroke: 0.6px #fcfcfc;
+    text-shadow: 0.3px 0 0 #fcfcfc;
 }
 
 .nav-links {
@@ -29,7 +31,7 @@
 }
 
 .nav-link {
-    font-family: "Forum", serif;
+    font-family: "Italiana", serif;
     font-size: 1.05rem;
     font-weight: 400;
     color: #fcfcfc;
@@ -39,6 +41,9 @@
     padding: 0.3rem 0;
     position: relative;
     text-decoration: none;
+    -webkit-text-stroke: 0.3px #fcfcfc;
+    text-shadow: 0.3px 0 0 #fcfcfc;
+
 }
 
 .nav-link::after {
@@ -87,7 +92,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 1.2rem;
-        background: rgba(232, 236, 245, 0.97);
+        background: rgba(0, 0, 0, 0.97);
         padding: 1.5rem 2rem;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);

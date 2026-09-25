@@ -1,8 +1,7 @@
 .hero {
-    min-height: 90vh;
+    min-height: calc(100vh - 105px);
     border-radius: 24px;
     margin: 1.5rem;
-    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,9 +24,9 @@
 }
 
 .hero-greeting {
-    font-family: "Trirong", serif;
-    font-size: 7rem;
-    font-weight: 400;
+    font-family: "Italiana", serif;
+    font-size: 4.5rem;
+    font-weight: 600;
     font-style: normal;
     color: #fcfcfc;
     margin-bottom: 0.5rem;
@@ -35,8 +34,8 @@
 }
 
 .hero-title {
-    font-family: "Trirong", serif;
-    font-size: 4.5rem;
+    font-family: "Italiana", serif;
+    font-size: 3rem;
     font-weight: 300;
     font-style: normal;
     text-align: center;
@@ -47,7 +46,7 @@
 }
 
 .hero-description {
-    font-family: "Trirong", serif;
+    font-family: "Italiana", serif;
     text-align: center;
     font-weight: 500;
     font-size: 1.5rem;
@@ -67,7 +66,7 @@
 }
 
 .skills-button {
-    font-family: "Trirong", serif;
+    font-family: "Italiana", serif;
     font-weight: 400;
     padding: 0.7rem 1.4rem;
     background: #6c5ce7;
