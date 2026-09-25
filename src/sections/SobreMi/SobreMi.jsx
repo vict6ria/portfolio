@@ -8,8 +8,7 @@ function SobreMi() {
                 Soy estudiante de segundo año de Relaciones Laborales y desarrolladora web en formación.
                 Comencé a estudiar programación con una idea clara: combinar el conocimiento sobre personas
                 y organizaciones con las posibilidades que ofrece la tecnología.
-                Actualmente estoy construyendo mi perfil como Full Stack Developer, desarrollando aplicaciones web con JavaScript,
-                React.js, Node.js y Express, y trabajando también con HTML, CSS, GitHub y APIs REST.
+                En el frontend, trabajo con React.js, HTML, CSS y JavaScript para construir interfaces. En el backend, desarrollo con Node.js y Express. Además, uso Git y GitHub para control de versiones.
             </p>
             <p className="sobre-mi-text">
                 Me interesa entender no solo cómo construir una solución tecnológica, sino también el problema que existe detrás de ella,
